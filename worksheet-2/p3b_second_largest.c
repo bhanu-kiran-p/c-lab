@@ -22,4 +22,5 @@ int main(){
         else
             printf("%d is the second largest",a);
     }
+    return 0;
 }
