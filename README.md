@@ -1,2 +1,6 @@
-c lab practice sheets  
-[practice sheet 2](https://1drv.ms/w/c/1EBDBBAAA34E4AB8/IQC5JOaveQ92QrXqXEoQeuWGAWcM9wOy8iJUEZvQf4vmvYs?e=pz2pPm)
+# C Practice Sheets
+
+- [practice-sheet-1](./practice-sheets/practice-sheet-1)
+- [practice-sheet-2](./practice-sheets/practice-sheet-2)
+- [practice-sheet-3](./practice-sheets/practice-sheet-3)
+- [practice-sheet-4](./practice-sheets/practice-sheet-4)
