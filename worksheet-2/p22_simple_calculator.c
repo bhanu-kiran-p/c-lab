@@ -11,12 +11,12 @@ int main(){
         printf("%d + %d = %d", a, b, a+b);
     else if(c == '-')
         printf("%d = %d = %d", a, b, a-b);
-    else if(c == '*')
+    else if(c == '*')  
         printf("%d * %d = %d", a, b, a*b);
     else if(c == '/')
         printf("%d / %d = %d", a, b, a/b);
     else if(c == '%')
-        printf("%d % %d = %d", a, b, a%b);
+        printf("%d %% %d = %d", a, b, a%b);
     else
         printf("invalid operator");
     return 0;

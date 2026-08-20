@@ -7,7 +7,7 @@ int main(){
     if(p>=95)
         printf("grade : A+");
     else if(p>=90)
-        printf(grade : A);
+        printf("grade : A");
     else if(p>=80)
         printf("grade : B");
     else if(p>=70)
