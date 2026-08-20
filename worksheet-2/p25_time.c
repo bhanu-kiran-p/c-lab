@@ -1,19 +1,26 @@
 #include <stdio.h>
 
-// Based on entered integer value between 0-24  print  whether it is morning, evening, noon, midnight or evening
-int main(){
-    int n;
-    printf("enter a value in 0-24: ");
-    scanf("%d", &n);
-    if(n== 12)
-        printf("it is noon");
-    else if(n == 24 || n==0)
-        printf("it is mid night");
-    else if(n>0 && n<12)
-        printf("it is morning");
-    else if(n>12 && n<24)
-        printf("it is evening");
-    else
-        printf("invalid time entered");
+int main() {
+    int hour;
+
+    printf("Enter an integer between 0 and 24: ");
+    scanf("%d", &hour);
+
+    if (hour < 0 || hour > 24) {
+        printf("Invalid input! Please enter between 0 and 24.\n");
+    } else {
+        if (hour == 0 || hour == 24) {
+            printf("It is Midnight.\n");
+        } else if (hour >= 1 && hour <= 11) {
+            printf("It is Morning.\n");
+        } else if (hour == 12) {
+            printf("It is Noon.\n");
+        } else if (hour >= 13 && hour <= 17) {
+            printf("It is Afternoon/Evening.\n");
+        } else {
+            printf("It is Night/Evening.\n");
+        }
+    }
+
     return 0;
 }
