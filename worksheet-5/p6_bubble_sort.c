@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int arr[10],n, i, j;
+    int arr[10],n, i, j, temp;
     printf("Enter no of elements: ");
     scanf("%d", &n);
     printf("Enter elements in the array: ");
@@ -12,8 +12,12 @@ int main(){
             if(arr[j+1] < arr[j]){
                 temp = arr[j];
                 arr[j] = arr[j+1];
-                arr[]
+                arr[j+1] = temp;
             }
         }
+    }
+    // DISPLAYING ELEMENTS
+    for(i=0; i<n; i++){
+        printf("%d\t", arr[i]);
     }
 }
